@@ -3,5 +3,5 @@ module or_gate(
 	input wire b,
 	output wire y
 );
-assign y=a|b;
+assign y=a^b;
 endmodule
